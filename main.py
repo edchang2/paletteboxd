@@ -36,8 +36,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('!hello'):
-        await
-        message.channel.send('hello!')
+        await message.channel.send('hello!')
 
     if message.content.startswith('party') and message.channel.id == master_channel_id:
         await
